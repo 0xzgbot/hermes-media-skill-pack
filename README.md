@@ -1,6 +1,6 @@
 # Hermes Media Skill Pack
 
-**136 media-production skills for [Hermes Agent](https://hermes-agent.nousresearch.com)** — a complete prompting and production system for AI-generated **still images, video, and audio** (142 SKILL.md documents total; the `ltx23` cluster bundles 6 sub-skills).
+**138 media-production skills for [Hermes Agent](https://hermes-agent.nousresearch.com)** — a complete prompting and production system for AI-generated **still images, video, and audio** (153 SKILL.md documents total; nested clusters: `ltx23` ×6, `minimax_h3` ×5, `wan` ×4).
 
 This pack distills professional cinematography, lighting design, art direction, character consistency, and video-generation workflow knowledge into skills that any Hermes Agent instance can load and apply. It covers the entire production pipeline — from story structure and shot planning, through prompt engineering and style direction, to LTX 2.3/2.5 and FLUX 2 generation, local multi-Comfy routing, and post-production.
 
@@ -40,7 +40,7 @@ Each skill encodes a specific piece of professional knowledge:
 - **Workflows** — end-to-end generation pipelines for LTX 2.3/2.5 and FLUX 2, including JSON schema payloads, anchor-frame strategy, multi-Comfy routing, and ComfyUI execution.
 - **Local runtime** — isolated Hermes home (does not touch `~/.hermes`), DGX Spark + dual-3090 Comfy instances, vision audit before ship.
 
-The skills were built through real production use with Hermes Agent, ComfyUI, LTX 2.3, FLUX 2, and FAL image/video generation. They are **model-agnostic where possible** (prompt language and art direction apply to any generator) and **specific where it matters** (LTX/FLUX workflows include exact node and payload guidance).
+The skills were built through real production use with Hermes Agent, ComfyUI, LTX 2.3, FLUX 2, MiniMax H3, Wan 2.2/3.0, and FAL image/video generation. They are **model-agnostic where possible** (prompt language and art direction apply to any generator) and **specific where it matters** (LTX / FLUX / H3 / Wan workflows include exact dialects, nodes, and payload flags).
 
 ### What it is not
 
@@ -56,7 +56,7 @@ The skills were built through real production use with Hermes Agent, ComfyUI, LT
 hermes-media-skill-pack/
 ├── README.md                    ← this file
 ├── LICENSE                      ← MIT
-├── MANIFEST.md                  ← complete skill inventory (136 skills)
+├── MANIFEST.md                  ← complete skill inventory (138 skills)
 ├── audio/                       ← 5 skills  — sound design & music
 ├── cinematography/              ← 17 skills — lens, framing, camera motion
 ├── consistency-quality/         ← 15 skills — drift, artifacts, audit & coherence
@@ -67,7 +67,7 @@ hermes-media-skill-pack/
 ├── post-production/             ← 3 skills  — color, VFX, editing
 ├── prompt-engineering/          ← 9 skills  — prompt craft & token discipline
 ├── style-specialists/           ← 15 skills — director/artist style emulation
-└── video-generation/            ← 16 skills — LTX 2.3/2.5, FLUX 2, Z-Image, local pipeline
+└── video-generation/            ← 18 skills — LTX 2.3/2.5, MiniMax H3, Wan 2.2/3.0, FLUX 2, Z-Image, local pipeline
 ```
 
 Every skill is a folder containing `SKILL.md` (and, where relevant, `references/`, `scripts/`, or `assets/`).
@@ -80,7 +80,7 @@ Every skill is a folder containing `SKILL.md` (and, where relevant, `references/
 |---|---|---|
 | [Hermes Agent](https://hermes-agent.nousresearch.com) | ✅ Yes | Current Hermes indexes **YAML frontmatter** (`name` + `description` ≤ 60 chars). Skills load from `~/.hermes/skills/` **or** a project `HERMES_HOME` (Cinesmith: `hermes_home/`, does not touch yours). |
 | ComfyUI | 🟡 Optional | Needed for `media-tools/comfyui` and most `video-generation/*` workflow skills. Multiple instances (DGX Spark + dual 3090s) → `multi-comfy-orchestration`. |
-| LTX 2.3 / 2.5 / FLUX 2 / Z-Image | 🟡 Optional | For the `video-generation/` skills specifically |
+| LTX 2.3 / 2.5 / FLUX 2 / Z-Image / Wan 2.2 / MiniMax H3-Base | 🟡 Optional | For the `video-generation/` skills specifically. Wan 3.0 and Hailuo H3 2K are hosted. |
 | FAL account | 🟡 Optional | Fallback only in `workflow_flux2_text_to_image` — skip for a fully local pipeline |
 | Tenor API key | 🟡 Optional | Only for `media-tools/gif-search` |
 | Spotify / audio tools | 🟡 Optional | Only for `audio/spotify`, `audio/heartmula`, `audio/songsee` |
@@ -177,7 +177,7 @@ A typical production flow through the pack:
 2. **Build the story** → `story_spine_narrative`, `hero_journey_narrative_structure`, `ghost_machine_narrative`
 3. **Plan the look** → `style-specialists/` for art direction + `lighting/` + `cinematography/` for the technical look
 4. **Write the prompts** → `prompt-engineering/` (`positive_prompt_structure`, `negative_prompt_library`, `quality_token_sets`, `seed_strategy`)
-5. **Generate** → `video-generation/` (LTX 2.3 / FLUX 2) or `media-tools/comfyui`
+5. **Generate** → `video-generation/` (LTX 2.3, MiniMax H3, Wan 2.2/3.0, FLUX 2) or `media-tools/comfyui`
 6. **Check consistency** → `consistency-quality/` (drift, artifacts)
 7. **Finish** → `post-production/` (color grading, VFX, editing)
 
@@ -188,7 +188,7 @@ A typical production flow through the pack:
 3. Load a style specialist (`style-specialists/wes_anderson_specialist`, `film_noir_classic_specialist`, etc.) for the art direction.
 4. Load `cinematography/anamorphic_lens_signature` + `lighting/golden_hour_mastery` for the technical look of each shot.
 5. Generate hero stills with `prompt-engineering/positive_prompt_structure`, using `quality_token_sets` to keep prompts disciplined.
-6. Animate with `video-generation/workflow_ltx_i2v` (anchor-first I2V) or `workflow_flux2_text_to_image` → video.
+6. Animate with `video-generation/workflow_ltx_i2v` (anchor-first I2V), `wan` (2.2 local or 3.0 hosted), or `minimax_h3` (shot-block + stereo).
 7. Grade with `post-production/color_grading_film_emulation`.
 
 ### Recipe: fixing character drift
@@ -223,6 +223,22 @@ The most reliable consistency path for AI video:
 1. Load `media-tools/isolated-hermes-home` — `HERMES_HOME` is the project, not `~/.hermes`.
 2. Load `media-tools/multi-comfy-orchestration` — DGX Spark + dual 3090s, one Comfy per GPU.
 3. Load `video-generation/local-cinematic-pipeline` and run plan → Z-Image/Flux still → LTX I2V or first/last → audit.
+4. Local video alternative: Wan **2.2** I2V/FLF on the video 3090 (`wan_prompt_engineering_master`). Do not load 14B MoE + LTX + H3-Base on one 24 GB card.
+
+### Recipe: MiniMax H3 (Hailuo 3) prompting control
+
+1. Load `video-generation/minimax_h3` — pick **Base** (T2VA / I2VA / FL2VA / L2VA) vs **Full-Reference** before writing.
+2. Load `minimax_h3_prompt_engineering_master` — official three fields or six Ref2VA sections. Local H3-Base has **no** Context-IR; write the IR yourself.
+3. Camera: `minimax_h3_camera_movement_language` (type + amplitude + speed in English). Audio: `minimax_h3_audio_direction` (`<d>` dialogue, soundscape, score — stereo is always on).
+4. Assets: `minimax_h3_reference_control`. Graphs/duration/license: `minimax_h3_technical_configuration`.
+5. First green run locally is an **MP4 with stereo** at 768p. 2K is hosted H3-Regenerate-2K, not a missing node.
+
+### Recipe: Wan 2.2 local / Wan 3.0 hosted
+
+1. Load `video-generation/wan`. Name the line in the shot log: **2.2** (Apache, Comfy) vs **3.0 / Prime** (hosted, up to 30 s).
+2. Load `wan_prompt_engineering_master`. I2V: motion + camera only. 3.0: `@Image1` jobs, `Shot N [0-5s]`, turn Auto Polish **off** once labels are exact.
+3. Camera / FLF / Animate: `wan_camera_motion_control`. 3.0 sound: `wan_audio_direction` (voice, SFX, music as three layers — or explicit `no voice lines` / `no background music`). Refs/docs: `wan_reference_control`.
+4. 2.2 on dual 3090s; 3.0 Prime on fal/Model Studio. Thinking ON if you attached a document or URL.
 
 ---
 
@@ -301,10 +317,12 @@ Formats: `documentary_interview_format`, `explainer_educational`, `entertainment
 ### `style-specialists/` — Art direction (15)
 `pixar_specialist`, `studio_ghibli_specialist`, `wes_anderson_specialist`, `film_noir_classic_specialist`, `cyberpunk_neon_noir_specialist`, `italian_giallo_specialist`, `ukiyo_e_specialist`, `surrealism_dali_specialist`, `synthwave_retrowave_specialist`, `soviet_constructivist_brutalist_specialist`, `baroque_caravaggio_specialist`, `impressionism_monet_specialist`, `art_nouveau_deco_specialist`, `neural_aesthetic`, `stop_motion_claymation_aesthetic`.
 
-### `video-generation/` — LTX 2.3/2.5, FLUX 2, local pipeline (16)
+### `video-generation/` — LTX, MiniMax H3, Wan, FLUX 2, local pipeline (18)
 | Skill | Covers |
 |---|---|
 | `ltx23` | Umbrella cluster: prompt-engineering master, camera movement language, character consistency, audio-visual sync, subject motion performance, technical configuration |
+| `minimax_h3` | Umbrella cluster: H3 Base vs Full-Reference prompting, camera (type+amplitude+speed), stereo audio, omni-reference, IR vs Base vs 2K |
+| `wan` | Umbrella cluster: Wan 2.2 local MoE vs 2.7 thinking vs **3.0 / 3.0 Prime** (30 s, 20 refs, native audio) |
 | `ltx25_beat_scripting` | LTX 2.5 timed to story beats, not one mega-prompt |
 | `workflow_ltx_i2v` | LTX image-to-video: anchor requirements, prompt subtraction, multi-shot continuity |
 | `workflow_ltx_first_last_frame` | LTX first+last stills driving the clip |
@@ -349,10 +367,10 @@ Bodies keep the production doctrine (`# SKILL:`, recipes, pitfalls). Newer runti
 ## Compatibility notes
 
 - **Hermes Agent:** YAML frontmatter is required for `skills_list()` / slash commands. Category folders are optional; the skills themselves are self-contained. Default install is `~/.hermes/skills/`. Cinesmith uses repo `hermes_home/` and **does not modify** your global Hermes unless you opt in.
-- **Generation backends:** ComfyUI is referenced by the workflow skills (`comfy run`, `run_workflow.py`, JSON payloads). Video skills cover LTX 2.3/2.5 and FLUX 2; check your ComfyUI version for exact node names. Multi-instance shops: one Comfy process per GPU.
+- **Generation backends:** ComfyUI is referenced by the workflow skills (`comfy run`, `run_workflow.py`, JSON payloads). Video skills cover LTX 2.3/2.5, MiniMax H3-Base, Wan 2.2 (local) and Wan 3.0 / Hailuo H3 (hosted); check your ComfyUI version for exact node names. Multi-instance shops: one Comfy process per GPU.
 - **API keys:** skills reference environment variables (e.g. `TENOR_API_KEY`, `COMFY_CLOUD_API_KEY`). No keys are embedded in the pack — configure your own.
 - **Server addresses:** workflow examples use `127.0.0.1` / generic hosts. Point them at your own ComfyUI instance.
-- **Models referenced:** LTX 2.3 / 2.5 (Lightricks), FLUX 2 and Z-Image Turbo (Black Forest Labs / Spark graphs), Wan 2.1. The prompt-language skills are model-agnostic.
+- **Models referenced:** LTX 2.3 / 2.5 (Lightricks), FLUX 2 and Z-Image Turbo (Black Forest Labs / Spark graphs), MiniMax H3 / Hailuo 3, Wan 2.2 (Apache, last open flagship) and Wan 3.0 / 3.0 Prime (hosted). The prompt-language skills are model-agnostic; H3 and Wan dialects are not interchangeable.
 
 ---
 
@@ -364,12 +382,10 @@ Bodies keep the production doctrine (`# SKILL:`, recipes, pitfalls). Newer runti
 | ComfyUI workflow skills fail | Confirm ComfyUI is running (`comfy run` / your launcher); check node names against your ComfyUI version; verify `COMFY_CLOUD_API_KEY` or local endpoint |
 | Character still drifts | Work the `consistency-quality/` skills in order: `character_consistency` → five-axes check in `cinematic_consistency_protocol` → targeted fix (`skin_tone_inconsistency`, `clothing_detail_loss`, …) |
 | Style doesn't match the reference | Combine the specialist with `style_suffix_library` + `artist_reference_vocabulary`, then iterate with `iterative_prompt_refinement` |
-| Video looks static / flat | Revisit `video-generation/workflow_ltx_i2v` motion guidance and `ltx23` camera-movement language; add `music_scoring_cinematic` for pacing |
+| Video looks static / flat | Revisit `workflow_ltx_i2v` / `ltx23` camera language, or the matching **H3 / Wan** camera skill — do not mix dialects |
 | "Don't touch my Hermes" / Cinesmith | Use `isolated-hermes-home`. Never `cp` this pack into `~/.hermes` when `HERMES_HOME` is a project tree. |
-| ComfyUI workflow skills fail | Confirm ComfyUI is running (`comfy run` / your launcher); check node names against your ComfyUI version; verify `COMFY_CLOUD_API_KEY` or local endpoint |
-| Character still drifts | Work the `consistency-quality/` skills in order: `character_consistency` → five-axes check in `cinematic_consistency_protocol` → targeted fix (`skin_tone_inconsistency`, `clothing_detail_loss`, …) |
-| Style doesn't match the reference | Combine the specialist with `style_suffix_library` + `artist_reference_vocabulary`, then iterate with `iterative_prompt_refinement` |
-| Video looks static / flat | Revisit `video-generation/workflow_ltx_i2v` motion guidance and `ltx23` camera-movement language; add `music_scoring_cinematic` for pacing |
+| H3 local looks worse than Hailuo | H3-Context-IR is hosted-only. Convert the brief to official Base or Full-Reference (`minimax_h3_prompt_engineering_master`). |
+| Wan 3.0 invented VO / BGM | Specify voice, SFX, and music as three layers, or `no voice lines` / `no background music` (`wan_audio_direction`). Turn Auto Polish off once `@` labels are exact. |
 
 ---
 

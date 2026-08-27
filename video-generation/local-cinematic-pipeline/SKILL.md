@@ -40,7 +40,7 @@ Don't use for: single still doodles (use Flux.2 skill only); cloud-only Director
 2. **Brief.** One paragraph: duration, product, character DNA, delivery aspect. Completion: written to the project, not only chat.
 3. **Plan locally.** Shot list from `30_second_tv_spot` / `15_second_social_content` plus lighting + lens skills. No cloud planner required. Completion: numbered shots with lens, key, duration.
 4. **Hero stills.** Flux.2 T2I or Z-Image Turbo on the stills instance (`workflow_flux2_text_to_image` / `z_image_turbo`). Lock seed + character pack (`character_consistency`). Completion: one anchor PNG per shot that passes a visual identity check.
-5. **Motion.** LTX I2V from the anchor (`workflow_ltx_i2v`). First/last-frame when the end pose is known (`workflow_ltx_first_last_frame`). Send video graphs to the 3090 video instance. Completion: clip duration matches the beat; camera verbs from `ltx23_camera_movement_language`.
+5. **Motion.** LTX I2V from the anchor (`workflow_ltx_i2v`). First/last-frame when the end pose is known (`workflow_ltx_first_last_frame`). Wan **2.2** I2V/FLF is the local alternative (`wan_prompt_engineering_master`) — one video family per GPU. Hosted MiniMax H3 / Wan 3.0 are **not** this recipe. Completion: clip duration matches the beat; camera verbs from the **same** family (`ltx23_camera_movement_language` or `wan_camera_motion_control`).
 6. **Audit.** `vision_audit_remediation` — identity, hands, text, continuity. Fail → patch prompt/seed/anchor, do not ship. Completion: pass/fail table per shot.
 7. **Finish.** Grade (`color_grading_film_emulation`), edit (`video-editing-workflow`), audio (`sound_design`). Completion: deliverable file path.
 

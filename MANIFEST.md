@@ -1,6 +1,6 @@
 # Media Skill Pack — Manifest
 
-**136 top-level skills (142 SKILL.md documents — the `ltx23` cluster contains 6 sub-skills)**
+**138 top-level skills (153 SKILL.md documents — `ltx23` has 6 nested specialists; `minimax_h3` has 5; `wan` has 4)**
 
 ## Categories
 
@@ -14,7 +14,7 @@
 - **post-production/** — 3 skills — Editing, color grading, VFX, and batch post-production skills.
 - **prompt-engineering/** — 9 skills — Prompt structure, token quality, seed strategy, and reference-vocabulary skills.
 - **style-specialists/** — 15 skills — Director and artist style emulation skills (film, animation, painting movements).
-- **video-generation/** — 16 skills — LTX 2.3/2.5, FLUX 2, Z-Image, first/last-frame, and fully local pipeline skills.
+- **video-generation/** — 18 skills — LTX 2.3/2.5, FLUX 2, MiniMax H3, Wan 2.2/3.0, Z-Image, and fully local pipeline skills.
 
 ## Skill inventory
 
@@ -157,7 +157,18 @@
 | video-generation | ltx23/ltx23_subject_motion_performance |
 | video-generation | ltx23/ltx23_technical_configuration |
 | video-generation | ltx25_beat_scripting |
+| video-generation | minimax_h3 |
+| video-generation | minimax_h3/minimax_h3_audio_direction |
+| video-generation | minimax_h3/minimax_h3_camera_movement_language |
+| video-generation | minimax_h3/minimax_h3_prompt_engineering_master |
+| video-generation | minimax_h3/minimax_h3_reference_control |
+| video-generation | minimax_h3/minimax_h3_technical_configuration |
 | video-generation | motion_graphics_kinetic_type |
+| video-generation | wan |
+| video-generation | wan/wan_audio_direction |
+| video-generation | wan/wan_camera_motion_control |
+| video-generation | wan/wan_prompt_engineering_master |
+| video-generation | wan/wan_reference_control |
 | video-generation | workflow_flux2_text_to_image |
 | video-generation | workflow_ltx_first_last_frame |
 | video-generation | workflow_ltx_i2v |
