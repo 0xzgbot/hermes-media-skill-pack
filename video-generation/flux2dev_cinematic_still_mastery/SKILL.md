@@ -1,3 +1,16 @@
+---
+name: flux2dev_cinematic_still_mastery
+description: "Generate Flux.2 cinematic stills as video anchors."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: FLUX.2 Dev Cinematic Still Mastery
 ## Version: 1.0 | Hermes Agent Flux2 Film Frame & Storyboard Specialist
 

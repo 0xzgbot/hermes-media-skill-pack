@@ -1,3 +1,16 @@
+---
+name: ltx23-prompt-engineering-master
+description: "Write LTX present-tense motion prompts that actually move."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: LTX 2.3 Prompt Engineering Master
 ## Version: 1.0 | Hermes Agent Universal LTX 2.3 Prompt Optimization Doctrine
 

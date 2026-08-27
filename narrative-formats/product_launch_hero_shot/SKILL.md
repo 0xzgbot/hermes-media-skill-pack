@@ -1,3 +1,16 @@
+---
+name: product_launch_hero_shot
+description: "Plan a product-launch hero still and motion."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: Product Launch Hero Shot
 ## Version: 1.0 | Hermes Agent Genre & Format Expertise
 

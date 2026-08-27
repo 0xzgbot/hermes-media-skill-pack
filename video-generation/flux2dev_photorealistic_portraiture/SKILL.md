@@ -1,3 +1,16 @@
+---
+name: flux2dev_photorealistic_portraiture
+description: "Generate Flux.2 photoreal portraits with locked DNA."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: FLUX.2 Dev Photorealistic Portraiture
 ## Version: 1.0 | Hermes Agent Flux2 Portrait & Skin Fidelity Specialist
 

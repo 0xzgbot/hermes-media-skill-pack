@@ -1,3 +1,16 @@
+---
+name: baroque_caravaggio_specialist
+description: "Emulate Caravaggio tenebrism and Baroque mass."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [style-specialists, media, cinematic]
+    category: style-specialists
+---
+
 # SKILL: Baroque / Caravaggio Specialist
 ## Domain: Dramatic Chiaroscuro, Tenebrism, Emotional Intensity, Religious Ecstasy
 ## Version: 1.0

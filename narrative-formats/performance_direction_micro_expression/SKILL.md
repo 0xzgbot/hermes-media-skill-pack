@@ -1,3 +1,16 @@
+---
+name: performance_direction_micro_expression
+description: "Direct micro-expressions and eye-acting beats."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: Performance Direction & Micro-Expressions
 ## Version: 1.0 | Hermes Agent AI Actor Direction
 

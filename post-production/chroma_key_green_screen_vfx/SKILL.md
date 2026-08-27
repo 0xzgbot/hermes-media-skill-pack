@@ -1,3 +1,16 @@
+---
+name: chroma_key_green_screen_vfx
+description: "Key green screen cleanly and composite plates."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [post-production, media, cinematic]
+    category: post-production
+---
+
 # SKILL: Chroma Key & Green Screen VFX
 ## Version: 1.0 | Hermes Agent Compositing & Virtual Production
 

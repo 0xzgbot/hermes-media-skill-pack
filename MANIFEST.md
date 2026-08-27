@@ -1,20 +1,20 @@
 # Media Skill Pack — Manifest
 
-**129 top-level skills (135 SKILL.md documents — the `ltx23` cluster contains 6 sub-skills)**
+**136 top-level skills (142 SKILL.md documents — the `ltx23` cluster contains 6 sub-skills)**
 
 ## Categories
 
 - **audio/** — 5 skills — Sound design, music scoring, and audio-generation tools.
 - **cinematography/** — 17 skills — Lens, framing, camera motion, and shot-composition technique skills.
-- **consistency-quality/** — 14 skills — Failure-pattern and consistency skills: fixing anatomy errors, drift, artifacts, and maintaining character/scene coherence across generations.
+- **consistency-quality/** — 15 skills — Failure-pattern, consistency, and vision-audit skills.
 - **genre-libraries/** — 15 skills — Industry and topic-specific cinematic prompt libraries.
 - **lighting/** — 13 skills — Lighting design and atmosphere skills for stills and video.
-- **media-tools/** — 5 skills — Media tooling skills: GIF search, YouTube content, ComfyUI pipelines, and general media workflows.
+- **media-tools/** — 7 skills — ComfyUI, isolated Hermes, multi-instance routing, GIF, YouTube, pipelines.
 - **narrative-formats/** — 21 skills — Content-length formats, story structures, character direction, and platform-specific formats.
 - **post-production/** — 3 skills — Editing, color grading, VFX, and batch post-production skills.
 - **prompt-engineering/** — 9 skills — Prompt structure, token quality, seed strategy, and reference-vocabulary skills.
 - **style-specialists/** — 15 skills — Director and artist style emulation skills (film, animation, painting movements).
-- **video-generation/** — 12 skills — LTX 2.3 and FLUX 2 generation workflow skills: prompting masters, motion language, technical configuration, I2V pipelines.
+- **video-generation/** — 16 skills — LTX 2.3/2.5, FLUX 2, Z-Image, first/last-frame, and fully local pipeline skills.
 
 ## Skill inventory
 
@@ -56,6 +56,7 @@
 | consistency-quality | photometric_overexposure |
 | consistency-quality | scale_distortion |
 | consistency-quality | skin_tone_inconsistency |
+| consistency-quality | vision_audit_remediation |
 | genre-libraries | automotive |
 | genre-libraries | beauty-cosmetics-cinematography |
 | genre-libraries | beauty_skincare |
@@ -87,7 +88,9 @@
 | media-tools | comfyui |
 | media-tools | gif-search |
 | media-tools | image-generation-workflow |
+| media-tools | isolated-hermes-home |
 | media-tools | media-pipeline-workflow |
+| media-tools | multi-comfy-orchestration |
 | media-tools | youtube-content |
 | narrative-formats | 15_second_social_content |
 | narrative-formats | 30_second_tv_spot |
@@ -145,7 +148,17 @@
 | video-generation | flux2dev_photorealistic_portraiture |
 | video-generation | flux2dev_product_hero_photography |
 | video-generation | flux2dev_prompt_engineering_master |
+| video-generation | local-cinematic-pipeline |
 | video-generation | ltx23 |
+| video-generation | ltx23/ltx23-prompt-engineering-master |
+| video-generation | ltx23/ltx23_audio_visual_sync |
+| video-generation | ltx23/ltx23_camera_movement_language |
+| video-generation | ltx23/ltx23_character_consistency |
+| video-generation | ltx23/ltx23_subject_motion_performance |
+| video-generation | ltx23/ltx23_technical_configuration |
+| video-generation | ltx25_beat_scripting |
 | video-generation | motion_graphics_kinetic_type |
 | video-generation | workflow_flux2_text_to_image |
+| video-generation | workflow_ltx_first_last_frame |
 | video-generation | workflow_ltx_i2v |
+| video-generation | z_image_turbo |

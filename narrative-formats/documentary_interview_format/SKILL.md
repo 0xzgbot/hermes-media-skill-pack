@@ -1,3 +1,16 @@
+---
+name: documentary_interview_format
+description: "Plan interview coverage, eyelines, and cutaways."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: Documentary & Interview Format
 ## Version: 1.0 | Hermes Agent Non-Fiction Cinematic Grammar
 

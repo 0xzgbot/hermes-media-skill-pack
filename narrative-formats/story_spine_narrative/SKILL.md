@@ -1,3 +1,16 @@
+---
+name: story_spine_narrative
+description: "Compress story to a spine of irreversible beats."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: Story Spine / Narrative
 ## Domain: Three-Act Structure, Emotional Beats, Scene Sequencing, Character Arcs
 ## Version: 1.0

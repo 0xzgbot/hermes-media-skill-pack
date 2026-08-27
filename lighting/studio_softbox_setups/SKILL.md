@@ -1,3 +1,16 @@
+---
+name: studio_softbox_setups
+description: "Build studio softbox ratios for people and product."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [lighting, media, cinematic]
+    category: lighting
+---
+
 # SKILL: Studio Softbox Setups
 ## Version: 1.0 | Hermes Agent Lighting System
 

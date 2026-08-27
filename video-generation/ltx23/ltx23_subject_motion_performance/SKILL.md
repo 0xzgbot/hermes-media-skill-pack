@@ -1,3 +1,16 @@
+---
+name: ltx23_subject_motion_performance
+description: "Direct LTX body acting, gait, and facial performance."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: LTX 2.3 Subject Motion & Performance Direction
 ## Version: 1.0 | Hermes Agent LTX Human Action, Acting & Facial Performance Specialist
 

@@ -1,3 +1,16 @@
+---
+name: ltx23_camera_movement_language
+description: "Prompt LTX pans, tracks, cranes, and locked-off holds."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: LTX 2.3 Camera Movement Language
 ## Version: 1.0 | Hermes Agent LTX Video Motion Grammar
 

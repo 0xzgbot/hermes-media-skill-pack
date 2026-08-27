@@ -1,3 +1,16 @@
+---
+name: clothing_detail_loss
+description: "Preserve wardrobe details across generations."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [consistency-quality, media, cinematic]
+    category: consistency-quality
+---
+
 # SKILL: Clothing Detail Loss
 ## Version: 1.0 | Hermes Agent Failure Pattern Library
 

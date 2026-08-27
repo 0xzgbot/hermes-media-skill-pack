@@ -1,3 +1,16 @@
+---
+name: composition_drift
+description: "Stop framing and grid drift across a sequence."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [consistency-quality, media, cinematic]
+    category: consistency-quality
+---
+
 # SKILL: Composition Drift
 ## Version: 1.0 | Hermes Agent Failure Pattern Library
 

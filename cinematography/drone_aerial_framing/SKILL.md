@@ -1,3 +1,16 @@
+---
+name: drone_aerial_framing
+description: "Direct aerial altitude, path, and landscape scale."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [cinematography, media, cinematic]
+    category: cinematography
+---
+
 # SKILL: Drone & Aerial Framing
 ## Version: 1.0 | Hermes Agent Camera & Lens Language
 

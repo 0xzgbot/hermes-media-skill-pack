@@ -1,12 +1,6 @@
 ---
 name: beauty-cosmetics-cinematography
-description: >
-  Beauty, cosmetics, and skincare cinematography and photography direction. Use when 
-  the task involves: (1) cosmetic product filming or photography, (2) skin texture 
-  and complexion rendering, (3) softbox and key-to-fill ratio management, (4) makeup 
-  application videos, (5) skincare routine cinematography, (6) fragrance and bottle 
-  beauty shots, or (7) any visual work where skin tone accuracy and product highlight 
-  integrity are critical.
+description: "Film cosmetics, skin texture, and bottle beauty."
 ---
 
 # Beauty & Cosmetics Cinematography

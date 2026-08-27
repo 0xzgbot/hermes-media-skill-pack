@@ -1,3 +1,16 @@
+---
+name: hero_journey_narrative_structure
+description: "Map a hero's-journey beat sheet to shots."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: Hero's Journey / Monomyth Narrative Structure
 ## Version: 1.0 | Hermes Agent Narrative Architecture
 

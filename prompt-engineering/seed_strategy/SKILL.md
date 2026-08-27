@@ -1,3 +1,16 @@
+---
+name: seed_strategy
+description: "Lock, fork, and document seeds for series work."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [prompt-engineering, media, cinematic]
+    category: prompt-engineering
+---
+
 # SKILL: Seed Strategy
 ## Version: 1.0 | Hermes Agent SD Prompt Craft (Technical)
 

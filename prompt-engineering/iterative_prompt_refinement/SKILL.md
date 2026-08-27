@@ -1,3 +1,16 @@
+---
+name: iterative_prompt_refinement
+description: "Tighten prompts across passes with a change log."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [prompt-engineering, media, cinematic]
+    category: prompt-engineering
+---
+
 # Iterative Prompt Refinement: Logic Framework for Semantic Remediation
 
 ## 1. Error Taxonomy

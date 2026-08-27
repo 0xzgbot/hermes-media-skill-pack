@@ -1,3 +1,16 @@
+---
+name: anamorphic_lens_signature
+description: "Prompt anamorphic squeeze, oval bokeh, and streak flares."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [cinematography, media, cinematic]
+    category: cinematography
+---
+
 # SKILL: Anamorphic Lens Signature
 ## Version: 1.0 | Hermes Agent Camera & Lens Language
 

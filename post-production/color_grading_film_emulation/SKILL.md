@@ -1,3 +1,16 @@
+---
+name: color_grading_film_emulation
+description: "Grade toward film stocks and print emulation."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [post-production, media, cinematic]
+    category: post-production
+---
+
 # SKILL: Color Grading & Film Emulation
 ## Version: 1.0 | Hermes Agent Post-Production & Look Development
 

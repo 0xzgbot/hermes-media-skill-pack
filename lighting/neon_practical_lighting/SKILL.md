@@ -1,3 +1,16 @@
+---
+name: neon_practical_lighting
+description: "Use neon practicals as motivated color keys."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [lighting, media, cinematic]
+    category: lighting
+---
+
 # SKILL: Neon & Practical Lighting
 ## Version: 1.0 | Hermes Agent Lighting System
 

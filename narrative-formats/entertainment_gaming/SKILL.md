@@ -1,3 +1,16 @@
+---
+name: entertainment_gaming
+description: "Format entertainment and gaming trailer beats."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: Entertainment & Gaming
 ## Version: 1.0 | Hermes Agent Brand Voice & Style
 

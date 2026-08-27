@@ -1,6 +1,6 @@
 ---
 name: media-pipeline-workflow
-description: Use for building or debugging AI media pipelines.
+description: "Build and debug multi-stage AI media pipelines."
 version: 1.0.0
 author: Hermes Agent community
 created: 2026

@@ -1,3 +1,16 @@
+---
+name: flux2dev_macro_texture_surface
+description: "Generate Flux.2 macro texture and surface stills."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: FLUX.2 Dev Macro, Texture & Surface Detail
 ## Version: 1.0 | Hermes Agent Flux2 Extreme Close-Up & Material Fidelity Specialist
 

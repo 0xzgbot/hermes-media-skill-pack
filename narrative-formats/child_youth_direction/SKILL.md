@@ -1,3 +1,16 @@
+---
+name: child_youth_direction
+description: "Direct child and youth performance safely."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: Child & Youth Direction
 ## Version: 1.0 | Hermes Agent Character & Direction System
 

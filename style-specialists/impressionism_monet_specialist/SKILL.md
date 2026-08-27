@@ -1,3 +1,16 @@
+---
+name: impressionism_monet_specialist
+description: "Emulate Impressionist broken color and atmosphere."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [style-specialists, media, cinematic]
+    category: style-specialists
+---
+
 # SKILL: Impressionism / Monet Specialist
 ## Domain: Broken Color, Plein Air Light, Visible Brushstroke, Color Vibration, Atmospheric Perspective
 ## Version: 1.0

@@ -1,3 +1,16 @@
+---
+name: 15_second_social_content
+description: "Structure a 15-second social clip beat map."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: 15-Second Social Content
 ## Version: 1.0 | Hermes Agent Genre & Format Expertise
 

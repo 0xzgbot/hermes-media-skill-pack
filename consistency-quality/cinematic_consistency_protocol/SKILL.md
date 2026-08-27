@@ -1,3 +1,16 @@
+---
+name: cinematic_consistency_protocol
+description: "Run five-axis continuity checks before re-rendering."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [consistency-quality, media, cinematic]
+    category: consistency-quality
+---
+
 # The Cinematic Consistency Protocol (CCP v1.0)
 ## A Technical Manifesto for Cross-Model Visual Continuity in Multi-Modal Diffusion Pipelines
 

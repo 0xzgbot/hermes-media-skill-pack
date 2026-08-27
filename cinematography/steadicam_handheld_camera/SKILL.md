@@ -1,3 +1,16 @@
+---
+name: steadicam_handheld_camera
+description: "Choose steadicam float vs handheld shake language."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [cinematography, media, cinematic]
+    category: cinematography
+---
+
 # SKILL: Steadicam & Handheld Camera
 ## Version: 1.0 | Hermes Agent Camera Movement Language
 

@@ -1,3 +1,16 @@
+---
+name: overcast_diffusion
+description: "Light with overcast, soft, shadowless daylight."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [lighting, media, cinematic]
+    category: lighting
+---
+
 # SKILL: Overcast Diffusion
 ## Version: 1.0 | Hermes Agent Lighting System
 

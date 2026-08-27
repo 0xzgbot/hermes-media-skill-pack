@@ -1,3 +1,16 @@
+---
+name: art_nouveau_deco_specialist
+description: "Emulate Art Nouveau and Art Deco ornament."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [style-specialists, media, cinematic]
+    category: style-specialists
+---
+
 # SKILL: Art Nouveau / Art Deco Specialist
 ## Domain: Ornate Organic Design, Geometric Elegance, Gold Leaf, Streamlined Modernism
 ## Version: 1.0

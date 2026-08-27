@@ -1,3 +1,16 @@
+---
+name: luxury_premium
+description: "Prompt luxury materials, restraint, and finish."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [genre-libraries, media, cinematic]
+    category: genre-libraries
+---
+
 # SKILL: Luxury & Premium
 ## Version: 1.0 | Hermes Agent Brand Voice & Style
 

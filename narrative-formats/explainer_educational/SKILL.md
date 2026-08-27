@@ -1,3 +1,16 @@
+---
+name: explainer_educational
+description: "Structure explainer beats, diagrams, and VO."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: Explainer & Educational
 ## Version: 1.0 | Hermes Agent Genre & Format Expertise
 

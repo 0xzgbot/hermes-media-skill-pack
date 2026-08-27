@@ -1,3 +1,16 @@
+---
+name: female_protagonist_framing
+description: "Frame a female lead with agency, not ornament."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: Female Protagonist Framing
 ## Version: 1.0 | Hermes Agent Character & Direction System
 

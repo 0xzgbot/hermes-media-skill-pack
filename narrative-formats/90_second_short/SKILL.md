@@ -1,3 +1,16 @@
+---
+name: 90_second_short
+description: "Structure a 90-second short with three acts."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: 90-Second Short
 ## Version: 1.0 | Hermes Agent Genre & Format Expertise
 

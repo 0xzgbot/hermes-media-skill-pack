@@ -1,12 +1,6 @@
 ---
 name: architectural-interior-cinematography
-description: >
-  Architectural visualization, interior design cinematography, and built-environment 
-  photography direction. Use when the task involves: (1) filming buildings or 
-  architectural spaces, (2) real estate or property cinematography, (3) perspective 
-  correction and verticals, (4) ambient occlusion and material rendering for spaces, 
-  (5) interior design showcase filming, (6) architectural walkthroughs, or (7) any 
-  spatial storytelling where geometry, material truth, and scale are primary subjects.
+description: "Film interiors with true verticals and material light."
 ---
 
 # Architectural & Interior Cinematography

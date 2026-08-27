@@ -1,3 +1,16 @@
+---
+name: ghost_machine_narrative
+description: "Build ghost-in-the-machine sci-fi story spines."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 I'll craft this temporal narrative arc for the 'Ghost in the Machine' launch. Let me first search for current design trends and conceptual frameworks around technological emergence and AI aesthetics to ensure the narrative feels grounded in contemporary visual language.
 
 Search

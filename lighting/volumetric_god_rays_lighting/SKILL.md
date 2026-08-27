@@ -1,3 +1,16 @@
+---
+name: volumetric_god_rays_lighting
+description: "Add volumetric shafts and god-ray atmosphere."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [lighting, media, cinematic]
+    category: lighting
+---
+
 # SKILL: Volumetric God Rays & Light Shafts
 ## Version: 1.0 | Hermes Agent Atmospheric Lighting
 

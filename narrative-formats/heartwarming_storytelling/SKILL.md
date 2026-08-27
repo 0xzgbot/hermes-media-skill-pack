@@ -1,7 +1,7 @@
 ---
 name: heartwarming_storytelling
 version: 1.0
-description: Wholesome micro-story arcs for happy, emotional, family-safe campaign content.
+description: "Write wholesome micro-arcs for family-safe spots."
 ---
 
 # Heartwarming Storytelling

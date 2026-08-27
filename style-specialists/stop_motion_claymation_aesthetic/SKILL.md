@@ -1,3 +1,16 @@
+---
+name: stop_motion_claymation_aesthetic
+description: "Emulate stop-motion and claymation surface."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [style-specialists, media, cinematic]
+    category: style-specialists
+---
+
 # SKILL: Stop-Motion & Claymation Aesthetic
 ## Version: 1.0 | Hermes Agent Frame-by-Frame Animation Language
 

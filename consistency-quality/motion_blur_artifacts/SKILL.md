@@ -1,3 +1,16 @@
+---
+name: motion_blur_artifacts
+description: "Fix bogus motion blur and smear artifacts."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [consistency-quality, media, cinematic]
+    category: consistency-quality
+---
+
 # SKILL: Motion Blur Artifacts
 ## Version: 1.0 | Hermes Agent Failure Pattern Library
 

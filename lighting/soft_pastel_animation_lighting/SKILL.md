@@ -1,7 +1,7 @@
 ---
 name: soft_pastel_animation_lighting
 version: 1.0
-description: Soft pastel animated-feature lighting with warm, happy, family-safe visual tone.
+description: "Light animated-feature pastels, warm and safe."
 ---
 
 # Soft Pastel Animation Lighting

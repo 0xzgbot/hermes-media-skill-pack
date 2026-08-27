@@ -1,3 +1,16 @@
+---
+name: sound_design
+description: "Layer foley, diegetic, and non-diegetic soundscapes."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [audio, media, cinematic]
+    category: audio
+---
+
 # SKILL: Sound Design
 ## Domain: Foley, Diegetic/Non-Diegetic Audio, Music Cues, Audio-Visual Correlation
 ## Version: 1.0

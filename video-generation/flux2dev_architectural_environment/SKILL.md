@@ -1,3 +1,16 @@
+---
+name: flux2dev_architectural_environment
+description: "Generate Flux.2 architectural and environment stills."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: FLUX.2 Dev Architectural & Environment Rendering
 ## Version: 1.0 | Hermes Agent Flux2 Architecture & Real Estate Specialist
 

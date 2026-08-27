@@ -1,3 +1,16 @@
+---
+name: flux2dev_product_hero_photography
+description: "Generate Flux.2 product hero stills for campaigns."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: FLUX.2 Dev Product & Hero Photography
 ## Version: 1.0 | Hermes Agent Flux2 Commercial & E-Commerce Specialist
 

@@ -1,3 +1,16 @@
+---
+name: artist_reference_vocabulary
+description: "Name artist/era references without dumping lists."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [prompt-engineering, media, cinematic]
+    category: prompt-engineering
+---
+
 # SKILL: Artist Reference Vocabulary
 ## Version: 1.0 | Hermes Agent SD Prompt Craft (Technical)
 

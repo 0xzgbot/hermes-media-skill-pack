@@ -1,3 +1,16 @@
+---
+name: flux2_json_schema
+description: "Build type-safe Flux.2 JSON payloads for ComfyUI."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 Search for up-to-date info on 2026 models and ComfyUI implementations
 
 

@@ -1,14 +1,6 @@
 ---
 name: sci-fi-futurism-cinematography
-description: >
-  Science fiction, futuristic, and speculative cinematography for genre filmmaking, 
-  concept visualization, and future-world creation. Use when the task involves: 
-  (1) sci-fi environment and world-building cinematography, (2) neon and artificial 
-  light source management, (3) volumetric light and atmosphere, (4) chrome, glass, 
-  and reflective futuristic surfaces, (5) holographic and UI visualization, 
-  (6) cyberpunk, utopian, or dystopian aesthetic direction, or (7) any visual 
-  work where speculative technology, alternate reality, or future design are primary 
-  subjects.
+description: "Build speculative worlds, neon, and future surfaces."
 ---
 
 # Sci-Fi & Futurism Cinematography

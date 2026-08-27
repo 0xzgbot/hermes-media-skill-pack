@@ -1,6 +1,6 @@
 ---
 name: video-editing-workflow
-description: Use when editing, structuring, or planning video content.
+description: "Edit, pace, and structure picture for delivery."
 version: 1.0.0
 author: Hermes Agent community
 created: 2026

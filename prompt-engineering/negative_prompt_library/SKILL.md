@@ -1,3 +1,16 @@
+---
+name: negative_prompt_library
+description: "Apply targeted negatives, not kitchen-sink bans."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [prompt-engineering, media, cinematic]
+    category: prompt-engineering
+---
+
 # SKILL: Negative Prompt Library
 ## Version: 1.0 | Hermes Agent SD Prompt Craft (Technical)
 

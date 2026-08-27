@@ -1,3 +1,16 @@
+---
+name: skin_tone_inconsistency
+description: "Match skin tone across lighting and shots."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [consistency-quality, media, cinematic]
+    category: consistency-quality
+---
+
 # SKILL: Skin Tone Inconsistency
 ## Version: 1.0 | Hermes Agent Failure Pattern Library
 

@@ -1,3 +1,16 @@
+---
+name: male_antagonist_presence
+description: "Stage antagonist weight, stillness, and threat."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: Male Antagonist Presence
 ## Version: 1.0 | Hermes Agent Character & Direction System
 

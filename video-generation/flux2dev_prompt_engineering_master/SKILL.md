@@ -1,3 +1,16 @@
+---
+name: flux2dev_prompt_engineering_master
+description: "Write Flux.2 prompts: structure, tokens, and locks."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: FLUX.2 Dev Prompt Engineering Master
 ## Version: 1.0 | Hermes Agent Universal Flux2 Prompt Optimization Doctrine
 

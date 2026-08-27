@@ -1,6 +1,6 @@
 ---
 name: image-generation-workflow
-description: Use when generating or refining images with AI.
+description: "Generate or refine stills with a repeatable AI loop."
 version: 1.0.0
 author: Hermes Agent community
 created: 2026

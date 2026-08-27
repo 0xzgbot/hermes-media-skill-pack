@@ -1,3 +1,16 @@
+---
+name: film_noir_classic_specialist
+description: "Emulate classic noir shafts, venetian, and rain."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [style-specialists, media, cinematic]
+    category: style-specialists
+---
+
 # SKILL: Film Noir Classic Specialist
 ## Domain: Low-Key Lighting, Venetian Blind Shadows, Femme Fatale, Hard-Boiled Detective, Urban Dread
 ## Version: 1.0

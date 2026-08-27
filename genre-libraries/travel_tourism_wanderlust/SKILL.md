@@ -1,3 +1,16 @@
+---
+name: travel_tourism_wanderlust
+description: "Prompt travel, place, and wanderlust campaigns."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [genre-libraries, media, cinematic]
+    category: genre-libraries
+---
+
 # SKILL: Travel & Tourism Wanderlust
 ## Version: 1.0 | Hermes Agent Destination Cinematography
 

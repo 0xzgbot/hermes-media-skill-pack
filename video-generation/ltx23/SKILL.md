@@ -1,6 +1,6 @@
 ---
 name: ltx23
-description: "LTX 2.3 (Lightricks) video generation cluster umbrella — prompt engineering, character consistency, camera motion, audio-visual sync, subject motion performance, and technical configuration all under one index."
+description: "Index LTX 2.3/2.5 video skills: prompt, motion, sync."
 ---
 
 # LTX 2.3 — Cluster Umbrella

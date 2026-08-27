@@ -1,12 +1,6 @@
 ---
 name: fashion-editorial-cinematography
-description: >
-  Fashion editorial cinematography, lookbook filming, and apparel visual storytelling. 
-  Use when the task involves: (1) fashion campaign filming, (2) clothing lookbook 
-  cinematography, (3) model pose direction and movement, (4) fabric texture and drape 
-  rendering, (5) editorial negative space composition, (6) runway or presentation 
-  filming, or (7) any visual work where garment, silhouette, and attitude are primary 
-  subjects.
+description: "Direct fashion editorials, lookbooks, and drape."
 ---
 
 # Fashion Editorial Cinematography

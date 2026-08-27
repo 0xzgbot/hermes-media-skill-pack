@@ -1,7 +1,7 @@
 ---
 name: workflow_flux2_text_to_image
 version: 2.0
-description: ComfyUI + comfy-cli for production Flux.2 text-to-image execution, with FAL image_generate fallback when ComfyUI is offline.
+description: "Run Flux.2 text-to-image on ComfyUI, FAL as fallback."
 references:
   - references/fal-runtime-path.md
 ---

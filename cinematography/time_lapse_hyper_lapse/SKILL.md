@@ -1,3 +1,16 @@
+---
+name: time_lapse_hyper_lapse
+description: "Plan time-lapse and hyper-lapse camera paths."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [cinematography, media, cinematic]
+    category: cinematography
+---
+
 # SKILL: Time-Lapse & Hyper-Lapse
 ## Version: 1.0 | Hermes Agent Temporal Compression Cinematography
 

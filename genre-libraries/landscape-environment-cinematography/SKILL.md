@@ -1,12 +1,6 @@
 ---
 name: landscape-environment-cinematography
-description: >
-  Landscape, nature, and environmental cinematography for documentary, travel, 
-  commercial, and conservation storytelling. Use when the task involves: (1) natural 
-  landscape filming, (2) golden hour and blue hour capture, (3) weather atmosphere 
-  and environmental conditions, (4) scale reference in vast environments, (5) nature 
-  and wildlife integration, (6) time-lapse and environmental change, or (7) any visual 
-  work where land, sky, water, and weather are the primary subjects.
+description: "Film landscape, weather, and environmental scale."
 ---
 
 # Landscape & Environment Cinematography

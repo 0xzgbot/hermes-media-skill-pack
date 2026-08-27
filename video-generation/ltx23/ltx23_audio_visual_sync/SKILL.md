@@ -1,3 +1,16 @@
+---
+name: ltx23_audio_visual_sync
+description: "Sync LTX native audio, lips, and score to picture."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: LTX 2.3 Audio-Visual Integration & Sync
 ## Version: 1.0 | Hermes Agent LTX Native Audio-Video Synchronization Specialist
 

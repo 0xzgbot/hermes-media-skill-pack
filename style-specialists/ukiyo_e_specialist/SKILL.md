@@ -1,3 +1,16 @@
+---
+name: ukiyo_e_specialist
+description: "Emulate ukiyo-e line, flat color, and wave."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [style-specialists, media, cinematic]
+    category: style-specialists
+---
+
 # SKILL: Ukiyo-e Specialist
 ## Domain: Japanese Woodblock Print, Flat Color, Bold Outlines, Edo-Period Aesthetics
 ## Version: 1.0

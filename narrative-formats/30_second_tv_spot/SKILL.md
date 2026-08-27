@@ -1,3 +1,16 @@
+---
+name: 30_second_tv_spot
+description: "Structure a 30-second TV/brand spot beat map."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: 30-Second TV Spot
 ## Version: 1.0 | Hermes Agent Genre & Format Expertise
 

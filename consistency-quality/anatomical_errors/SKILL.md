@@ -1,3 +1,16 @@
+---
+name: anatomical_errors
+description: "Diagnose and fix AI anatomy failures in people."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [consistency-quality, media, cinematic]
+    category: consistency-quality
+---
+
 # SKILL: Anatomical Errors
 ## Version: 1.0 | Hermes Agent Failure Pattern Library
 

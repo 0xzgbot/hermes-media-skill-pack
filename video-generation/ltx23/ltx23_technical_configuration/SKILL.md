@@ -1,3 +1,16 @@
+---
+name: ltx23_technical_configuration
+description: "Set LTX sampler, frames, distilled vs full, LoRAs."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: LTX 2.3 Technical Configuration & Workflow Optimization
 ## Version: 1.0 | Hermes Agent LTX Settings, Inference Modes & Pipeline Architecture
 

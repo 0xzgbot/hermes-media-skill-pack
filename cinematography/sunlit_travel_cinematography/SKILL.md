@@ -1,7 +1,7 @@
 ---
 name: sunlit_travel_cinematography
 version: 1.0
-description: Warm travel framing for optimistic destination, journey, and wanderlust content.
+description: "Frame warm travel and destination wanderlust stills."
 ---
 
 # Sunlit Travel Cinematography

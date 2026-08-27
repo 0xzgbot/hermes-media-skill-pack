@@ -1,3 +1,16 @@
+---
+name: wide_angle_environmental
+description: "Tell environment stories with wide-angle coverage."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [cinematography, media, cinematic]
+    category: cinematography
+---
+
 # SKILL: Wide Angle Environmental
 ## Version: 1.0 | Hermes Agent Camera & Lens Language
 

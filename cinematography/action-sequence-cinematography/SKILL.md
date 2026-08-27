@@ -1,11 +1,6 @@
 ---
 name: action-sequence-cinematography
-description: >
-  Action sequence cinematography, fight choreography filming, and dynamic motion 
-  storytelling. Use when the task involves: (1) filming fight scenes or combat sequences, 
-  (2) chase scene direction, (3) stunt coordination coverage, (4) dynamic composition 
-  for motion and impact, (5) motion freeze and speed ramp timing, (6) impact moment 
-  capture, or (7) any high-energy physical sequence requiring visceral audience reaction.
+description: "Cover fights, chases, and impact beats for action."
 ---
 
 # Action Sequence Cinematography

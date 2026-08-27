@@ -1,3 +1,16 @@
+---
+name: italian_giallo_specialist
+description: "Emulate giallo color, gloves, and set-piece kills."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [style-specialists, media, cinematic]
+    category: style-specialists
+---
+
 # SKILL: 1970s Italian Giallo Specialist
 ## Domain: Stylized Horror, Baroque Cinematography, Saturated Color Gels, Black Leather, Synth Atmosphere
 ## Version: 1.0

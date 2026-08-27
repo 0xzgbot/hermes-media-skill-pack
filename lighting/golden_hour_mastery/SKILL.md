@@ -1,3 +1,16 @@
+---
+name: golden_hour_mastery
+description: "Use golden-hour sun angle, color, and length."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [lighting, media, cinematic]
+    category: lighting
+---
+
 # SKILL: Golden Hour Mastery
 ## Version: 1.0 | Hermes Agent Lighting System
 

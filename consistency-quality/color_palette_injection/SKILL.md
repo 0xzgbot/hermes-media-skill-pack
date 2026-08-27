@@ -1,3 +1,16 @@
+---
+name: color_palette_injection
+description: "Lock and inject a palette across stills and clips."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [consistency-quality, media, cinematic]
+    category: consistency-quality
+---
+
 # SKILL: Color Palette Injection
 ## Version: 1.0 | Hermes Agent SD Prompt Craft (Technical)
 

@@ -1,3 +1,16 @@
+---
+name: dolly_zoom_vertigo_effect
+description: "Build Vertigo/dolly-zoom tension in stills and video."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [cinematography, media, cinematic]
+    category: cinematography
+---
+
 # SKILL: Dolly Zoom / Vertigo Effect
 ## Version: 1.0 | Hermes Agent Cinematic Camera Movement
 

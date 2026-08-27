@@ -1,3 +1,16 @@
+---
+name: streetwear_youth_culture
+description: "Prompt streetwear, youth culture, and attitude."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [genre-libraries, media, cinematic]
+    category: genre-libraries
+---
+
 # SKILL: Streetwear & Youth Culture
 ## Version: 1.0 | Hermes Agent Brand Voice & Style
 

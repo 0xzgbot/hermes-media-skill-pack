@@ -1,3 +1,16 @@
+---
+name: eye_color_mismatch
+description: "Keep eye color stable across character shots."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [consistency-quality, media, cinematic]
+    category: consistency-quality
+---
+
 # SKILL: Eye Color Mismatch
 ## Version: 1.0 | Hermes Agent Failure Pattern Library
 

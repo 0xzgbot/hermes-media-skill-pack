@@ -1,3 +1,16 @@
+---
+name: blue_hour_silhouette_lighting
+description: "Light blue-hour silhouettes and dusk rims."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [lighting, media, cinematic]
+    category: lighting
+---
+
 # SKILL: Blue Hour & Silhouette Lighting
 ## Version: 1.0 | Hermes Agent Twilight & Shadow Cinematography
 

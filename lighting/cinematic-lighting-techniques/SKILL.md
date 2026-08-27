@@ -4,7 +4,7 @@ author: Hermes Agent
 version: 1.0
 created: 2026
 name: cinematic-lighting-techniques
-description: Validated lighting approaches, color grading strategies, and compositional techniques for generating professional-grade photography and video prompts with Flux.2 and LTX 2.3 models.
+description: "Pick cinematic keys, ratios, and grade strategies."
 ---
 
 # Cinematic Lighting Techniques for AI Visual Generation

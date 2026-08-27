@@ -1,3 +1,16 @@
+---
+name: macro_intimacy
+description: "Shoot macro close-ups with shallow-depth storytelling."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [cinematography, media, cinematic]
+    category: cinematography
+---
+
 # SKILL: Macro Intimacy
 ## Version: 1.0 | Hermes Agent Camera & Lens Language
 

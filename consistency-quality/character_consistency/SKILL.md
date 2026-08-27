@@ -1,3 +1,16 @@
+---
+name: character_consistency
+description: "Lock identity via DNA, packs, adapters, and anchors."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [consistency-quality, media, cinematic]
+    category: consistency-quality
+---
+
 # SKILL: Character Consistency
 ## Domain: Face Embeddings, LoRA Training, IP Adapters, Wardrobe Locking, Anchor Frames
 ## Version: 1.0

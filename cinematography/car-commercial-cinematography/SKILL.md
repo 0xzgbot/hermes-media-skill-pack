@@ -1,12 +1,6 @@
 ---
 name: car-commercial-cinematography
-description: >
-  Automotive advertising cinematography and visual direction for vehicle commercials, 
-  promotional films, and hero product shots. Use when the task involves: (1) shooting or 
-  directing car commercials, (2) capturing vehicle hero angles and beauty shots, (3) 
-  managing chrome reflections and paint surface rendering, (4) road texture and motion 
-  blur dynamics, (5) studio or location automotive photography, or (6) any vehicle-centric 
-  visual storytelling requiring premium commercial aesthetics.
+description: "Direct vehicle hero shots, chrome, and road motion."
 ---
 
 # Car Commercial Cinematography

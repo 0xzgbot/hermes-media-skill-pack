@@ -1,3 +1,16 @@
+---
+name: tech_innovation
+description: "Prompt product-tech and innovation visuals."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [genre-libraries, media, cinematic]
+    category: genre-libraries
+---
+
 # SKILL: Tech & Innovation
 ## Version: 1.0 | Hermes Agent Brand Voice & Style
 

@@ -1,12 +1,6 @@
 ---
 name: food-beverage-cinematography
-description: >
-  Food, beverage, and culinary cinematography for advertising, social content, and 
-  editorial. Use when the task involves: (1) food photography or filming, (2) beverage 
-  and drink beauty shots, (3) steam, condensation, and temperature cues, (4) macro 
-  depth of field for ingredients, (5) appetite appeal and craving generation, (6) 
-  cooking process cinematography, or (7) any visual work where freshness, texture, 
-  and taste transference are primary objectives.
+description: "Film food and drink with appetite and steam."
 ---
 
 # Food & Beverage Cinematography

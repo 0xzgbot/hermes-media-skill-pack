@@ -1,3 +1,16 @@
+---
+name: cinematic_continuity
+description: "Hold camera geography, keys, and prop state."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [consistency-quality, media, cinematic]
+    category: consistency-quality
+---
+
 # SKILL: Cinematic Continuity
 ## Domain: Multi-Shot Sequences, Visual Coherence, Character Consistency, Pipeline Continuity
 ## Version: 1.0

@@ -1,3 +1,16 @@
+---
+name: rack_focus_technique
+description: "Pull focus between planes to shift story attention."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [cinematography, media, cinematic]
+    category: cinematography
+---
+
 # SKILL: Rack Focus Technique
 ## Version: 1.0 | Hermes Agent Camera & Lens Language
 

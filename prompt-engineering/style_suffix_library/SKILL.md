@@ -1,3 +1,16 @@
+---
+name: style_suffix_library
+description: "Append consistent style suffixes per look."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [prompt-engineering, media, cinematic]
+    category: prompt-engineering
+---
+
 # SKILL: Style Suffix Library
 ## Version: 1.0 | Hermes Agent SD Prompt Craft (Technical)
 

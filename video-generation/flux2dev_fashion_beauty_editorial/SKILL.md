@@ -1,3 +1,16 @@
+---
+name: flux2dev_fashion_beauty_editorial
+description: "Generate Flux.2 fashion and beauty editorials."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: FLUX.2 Dev Fashion & Beauty Editorial
 ## Version: 1.0 | Hermes Agent Flux2 Fashion Photography Specialist
 

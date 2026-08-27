@@ -1,3 +1,16 @@
+---
+name: wes_anderson_specialist
+description: "Emulate Anderson symmetry, pastels, and tableau."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [style-specialists, media, cinematic]
+    category: style-specialists
+---
+
 # SKILL: Wes Anderson Specialist
 ## Domain: Cinematography, Production Design, Color Theory, Typography, Narrative Style
 ## Version: 1.0

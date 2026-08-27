@@ -1,3 +1,16 @@
+---
+name: 60_second_brand_film
+description: "Structure a 60-second brand film beat map."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: 60-Second Brand Film
 ## Version: 1.0 | Hermes Agent Genre & Format Expertise
 

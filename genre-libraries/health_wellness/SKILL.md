@@ -1,3 +1,16 @@
+---
+name: health_wellness
+description: "Prompt health, wellness, and care visuals."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [genre-libraries, media, cinematic]
+    category: genre-libraries
+---
+
 # SKILL: Health & Wellness
 ## Version: 1.0 | Hermes Agent Brand Voice & Style
 

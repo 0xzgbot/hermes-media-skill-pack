@@ -1,12 +1,6 @@
 ---
 name: sports-athleticism-cinematography
-description: >
-  Sports, athletic performance, and physical excellence cinematography. Use when the 
-  task involves: (1) filming athletic competition or training, (2) peak action timing 
-  and capture, (3) sweat, exertion, and human detail in sport, (4) environment energy 
-  and crowd atmosphere, (5) sports documentary or profile filming, (6) slow-motion 
-  action decomposition, or (7) any visual work where physical limit, competitive 
-  intensity, or body mechanics are primary subjects.
+description: "Film sport peaks, exertion, and crowd energy."
 ---
 
 # Sports & Athleticism Cinematography

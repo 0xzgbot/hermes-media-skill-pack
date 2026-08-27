@@ -1,3 +1,16 @@
+---
+name: non_human_creature
+description: "Direct creature performance and non-human body."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: Non-Human & Creature
 ## Version: 1.0 | Hermes Agent Character & Direction System
 

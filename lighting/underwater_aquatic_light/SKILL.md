@@ -1,3 +1,16 @@
+---
+name: underwater_aquatic_light
+description: "Light underwater caustics, murk, and shafts."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [lighting, media, cinematic]
+    category: lighting
+---
+
 # SKILL: Underwater & Aquatic Light
 ## Version: 1.0 | Hermes Agent Lighting System
 

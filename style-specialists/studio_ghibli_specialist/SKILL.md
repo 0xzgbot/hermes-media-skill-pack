@@ -1,3 +1,16 @@
+---
+name: studio_ghibli_specialist
+description: "Emulate Ghibli weather, food, and hand-painted air."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [style-specialists, media, cinematic]
+    category: style-specialists
+---
+
 # SKILL: Studio Ghibli Specialist
 ## Domain: Hand-Drawn Animation, Environmental Storytelling, Naturalistic Fantasy, Emotional Subtlety
 ## Version: 1.0

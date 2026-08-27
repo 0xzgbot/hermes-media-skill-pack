@@ -1,13 +1,6 @@
 ---
 name: documentary-realism-cinematography
-description: >
-  Documentary, non-fiction, and realist cinematography for journalism, observational 
-  filmmaking, and truth-based storytelling. Use when the task involves: (1) documentary 
-  filming or reality capture, (2) handheld camera work and available light situations, 
-  (3) unposed naturalism and authentic behavior, (4) interview and testimony filming, 
-  (5) vérité and fly-on-the-wall observation, (6) social documentary and human 
-  stories, or (7) any visual work where truth, presence, and unmediated reality are 
-  the primary values.
+description: "Shoot observational, available-light documentary coverage."
 ---
 
 # Documentary Realism Cinematography

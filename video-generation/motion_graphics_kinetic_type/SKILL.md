@@ -1,3 +1,16 @@
+---
+name: motion_graphics_kinetic_type
+description: "Design kinetic type and motion-graphics beats."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: Motion Graphics & Kinetic Typography
 ## Version: 1.0 | Hermes Agent Animated Information Design
 

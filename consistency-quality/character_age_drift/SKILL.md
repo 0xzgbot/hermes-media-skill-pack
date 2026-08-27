@@ -1,3 +1,16 @@
+---
+name: character_age_drift
+description: "Lock apparent age across a character series."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [consistency-quality, media, cinematic]
+    category: consistency-quality
+---
+
 # SKILL: Character Age Drift
 ## Version: 1.0 | Hermes Agent Failure Pattern Library
 

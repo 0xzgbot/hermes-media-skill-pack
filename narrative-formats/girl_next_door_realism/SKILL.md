@@ -1,7 +1,7 @@
 ---
 name: girl_next_door_realism
 version: 1.0
-description: Natural, approachable recurring female character realism for wholesome social videos.
+description: "Cast approachable, unstyled recurring realism."
 ---
 
 # Girl Next Door Realism

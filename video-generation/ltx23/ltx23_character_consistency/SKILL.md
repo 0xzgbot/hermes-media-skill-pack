@@ -1,3 +1,16 @@
+---
+name: ltx23_character_consistency
+description: "Hold LTX character identity across V2V and I2V."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 Deep Research: Character Consistency in LTX 2.3
 Executive Summary
 LTX 2.3 (Lightricks' 22B-parameter open-weight video model) represents a meaningful step forward in character consistency for AI video generation, though it relies on a combination of base model improvements, image-to-video anchoring, LoRA fine-tuning, and platform-level tools (LTX Studio's "Elements" system) rather than solving character drift natively in pure text-to-video mode.

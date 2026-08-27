@@ -1,7 +1,7 @@
 ---
 name: tiktok_vertical_platform
 version: 1.0
-description: TikTok vertical short platform constraints for mobile-first image and LTX video generation.
+description: "Fit shots to TikTok vertical timing and safe areas."
 ---
 
 # TikTok Vertical Platform

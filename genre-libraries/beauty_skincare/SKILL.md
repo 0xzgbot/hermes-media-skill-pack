@@ -1,3 +1,16 @@
+---
+name: beauty_skincare
+description: "Prompt beauty, skin, and cosmetics product language."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [genre-libraries, media, cinematic]
+    category: genre-libraries
+---
+
 # SKILL: Beauty & Skincare
 ## Version: 1.0 | Hermes Agent Brand Voice & Style
 

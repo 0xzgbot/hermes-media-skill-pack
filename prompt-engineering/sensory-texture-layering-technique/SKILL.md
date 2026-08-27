@@ -1,9 +1,6 @@
 ---
 name: sensory-texture-layering-technique
-description: >
-  A validated prompting technique that replaces static material adjectives
-  with kinetic sensory verbs to increase photorealism (+0.5), brand fidelity
-  (+0.6), and emotional engagement (+0.7) without increasing prompt word count.
+description: "Swap static adjectives for kinetic sensory verbs."
 ---
 
 # Sensory Texture Layering Technique

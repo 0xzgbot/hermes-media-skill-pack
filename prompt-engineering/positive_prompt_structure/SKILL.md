@@ -1,3 +1,16 @@
+---
+name: positive_prompt_structure
+description: "Order positives: subject, light, lens, grade."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [prompt-engineering, media, cinematic]
+    category: prompt-engineering
+---
+
 # SKILL: Positive Prompt Structure
 ## Version: 1.0 | Hermes Agent SD Prompt Craft (Technical)
 

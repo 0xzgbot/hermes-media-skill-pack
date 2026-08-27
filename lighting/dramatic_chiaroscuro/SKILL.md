@@ -1,3 +1,16 @@
+---
+name: dramatic_chiaroscuro
+description: "Build high-contrast chiaroscuro and falloff."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [lighting, media, cinematic]
+    category: lighting
+---
+
 # SKILL: Dramatic Chiaroscuro
 ## Version: 1.0 | Hermes Agent Lighting System
 

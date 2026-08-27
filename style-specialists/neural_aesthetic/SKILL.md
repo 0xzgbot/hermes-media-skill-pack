@@ -1,3 +1,16 @@
+---
+name: neural_aesthetic
+description: "Steer toward neural/latent aesthetic, not stock CGI."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [style-specialists, media, cinematic]
+    category: style-specialists
+---
+
 # SKILL: Neural Aesthetic
 ## Domain: Lighting Constants, Mood Descriptors, Style DNA, Prompt Injection Architecture
 ## Version: 1.0

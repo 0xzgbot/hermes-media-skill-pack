@@ -1,3 +1,16 @@
+---
+name: ensemble_group_dynamics
+description: "Stage ensemble blocking and group eyelines."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [narrative-formats, media, cinematic]
+    category: narrative-formats
+---
+
 # SKILL: Ensemble Group Dynamics
 ## Version: 1.0 | Hermes Agent Character & Direction System
 

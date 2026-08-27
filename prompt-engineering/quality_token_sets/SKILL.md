@@ -1,3 +1,16 @@
+---
+name: quality_token_sets
+description: "Use short quality tokens; drop empty superlatives."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [prompt-engineering, media, cinematic]
+    category: prompt-engineering
+---
+
 # SKILL: Quality Token Sets
 ## Version: 1.0 | Hermes Agent SD Prompt Craft (Technical)
 

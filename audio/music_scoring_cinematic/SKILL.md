@@ -1,3 +1,16 @@
+---
+name: music_scoring_cinematic
+description: "Write cinematic score cues and picture-sync music maps."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [audio, media, cinematic]
+    category: audio
+---
+
 # SKILL: Music Scoring & Cinematic Audio
 ## Version: 1.0 | Hermes Agent Emotional Sound Architecture
 

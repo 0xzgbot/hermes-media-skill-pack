@@ -1,3 +1,16 @@
+---
+name: scale_distortion
+description: "Fix relative-size errors between subjects."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [consistency-quality, media, cinematic]
+    category: consistency-quality
+---
+
 # SKILL: Scale Distortion
 ## Version: 1.0 | Hermes Agent Failure Pattern Library
 

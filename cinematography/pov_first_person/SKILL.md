@@ -1,3 +1,16 @@
+---
+name: pov_first_person
+description: "Frame first-person POV shots and eyeline motion."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [cinematography, media, cinematic]
+    category: cinematography
+---
+
 # SKILL: POV & First-Person
 ## Version: 1.0 | Hermes Agent Camera & Lens Language
 

@@ -1,3 +1,16 @@
+---
+name: workflow_ltx_i2v
+description: "Run LTX image-to-video from a locked anchor frame."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [video-generation, media, cinematic]
+    category: video-generation
+---
+
 # SKILL: LTX 2.3 Image-to-Video Workflow Master
 ## Version: 1.0 | Hermes Agent LTX I2V Pipeline & Anchor Strategy Specialist
 

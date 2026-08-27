@@ -1,3 +1,16 @@
+---
+name: synthwave_retrowave_specialist
+description: "Emulate synthwave grids, suns, and chrome nights."
+version: 1.1.0
+author: 0xzgbot, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [style-specialists, media, cinematic]
+    category: style-specialists
+---
+
 # SKILL: Synthwave / Retrowave Specialist
 ## Domain: 1980s Nostalgia, Neon Grid Landscapes, Chrome Typography, Sunset Gradients
 ## Version: 1.0
